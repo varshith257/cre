@@ -129,6 +129,9 @@ categories:
   - name: in-memory-database-problem
     displayName: In-Memory Database Problems
     description: Problems specific to in-memory data stores (e.g. Redis, Memcached)
+  - name: postgres-ha
+    displayName: PostgreSQL High Availability
+    description: High-severity problems related to PostgreSQL in high-availability (HA) clusters, including replication, failover, WAL streaming, and HA controller outages.
   - name: kubernetes-storage-problems
     displayName: Kubernetes Storage Problems
     description: Problems related to container storage in Kubernetes
