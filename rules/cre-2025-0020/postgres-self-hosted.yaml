@@ -4,7 +4,7 @@ rules:
       id: 5UD1RZxGC5LJQnVmAkV11A
       gen: 1
     cre:
-      id: CRE-2025-0072
+      id: CRE-2025-0020
       severity: 1
       title: "Self-hosted PostgreSQL HA: WAL Streaming & HA Controller Crisis (Replication Slot Loss, Disk Full, Etcd Quorum Failure)"
       category: "postgres-ha"
