@@ -510,12 +510,6 @@ tags:
   - name: securityContext
     displayName: securityContext
     description: Problems related to Kubernetes securityContext
-  - name: replication
-    displayName: Replication
-    description: Problems related to Kafka replication
-  - name: high-availability
-    displayName: High Availability
-    description: Problems related to high-availability
   - name: broker-failure
     displayName: Broker Failure
     description: Problems related to Kakfa broker failures
@@ -558,3 +552,18 @@ tags:
   - name: demo-problem
     displayName: Demo Problem
     description: This is a tag for demo problems
+  - name: workflow-orchestration-connectivity
+    displayName: Workflow Orchestration
+    description: Problems related to workfow orchestration
+  - name: temporal
+    displayName: Temporal
+    description: Problems related to Temporal
+  - name: worker
+    displayName: Worker Problems
+    description: Problems related to process workers
+  - name: grpc
+    displayName: gRPC
+    description: Problems related to gRPC
+  - name: startup-failure
+    displayName: Startup Failure
+    description: Problems related to start-up failures
