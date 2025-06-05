@@ -2,40 +2,6 @@
 
 Thank you for your interest in contributing to Common Reliability Enumerations (CREs)! We appreciate your efforts to improve the problem detection community. Before you get started, please review these guidelines to help ensure your contributions are effective and easy to understand.
 
-## Why We Create Issues Before Contributing Code or New Rules
-
-We encourage everyone to open an issue on GitHub before submitting any code or new rules. Doing so:
-
-* Helps us discuss and refine ideas early.
-* Ensures the proposed change works well in various environments.
-* Saves time by reducing the risk of major rework later on.
-
-Starting with a pull request before discussing it can be disappointing if we realize that the rule or approach needs significant changes. Instead, opening an issue first lets us brainstorm together and make sure we’re on the right track from the start!
-
-### What a good issue looks like
-
-We offer a [few issue templates](https://github.com/prequel-dev/cre/issues/new/choose) to help guide you:
-
-* **Bug report**: Create a report to help us improve
-* **Feature request**: Suggest an idea for this project
-* **New rule**: Suggestions and ideas for new CREs
-* **Tune existing rule**: Suggest changes to make to an existing CRE to address false positives or negatives
-
-If none of the templates fit your needs, feel free to open a blank issue and add relevant labels. The more details you provide—such as steps to reproduce, logs, or code snippets—the easier it is for us to help.
-
-### "My issue isn't getting enough attention"
-
-We’re sorry if your issue seems overlooked! We try to respond promptly, but sometimes things get busy. If you feel your issue has been stuck for too long, feel free to:
-
-* Bump the issue with an additional comment.
-* Tag a maintainer or reach out to us on Slack (if available).
-
-We value your contributions and want to ensure your feedback is heard.
-
-### "I want to help!"
-
-That’s great! If you’d like to fix a bug or introduce a new rule, please find or open a related issue before you begin coding. That way, we can coordinate efforts, share insights, and avoid duplicating work. Once we agree on the approach, we’ll be happy to collaborate with you to get your changes merged.
-
 ## How we use Git and GitHub
 
 ### Forking
@@ -68,6 +34,36 @@ When submitting a PR, please include:
   * Screenshots or other supporting evidence, ensuring you’ve removed any sensitive info.
 
 For more details on our pull request process, see the “Submitting a Pull Request” section below.
+
+### Optional: Create Issues Before Contributing Code or New Rules
+
+Feel free to open a github issue before submitting code or new rules. Doing so:
+
+* Helps us discuss and refine ideas early.
+* Ensures the proposed change works well in various environments.
+* Saves time by reducing the risk of major rework later on.
+
+Opening an issue first lets us brainstorm together and make sure we’re on the right track from the start!
+
+#### What a good issue looks like
+
+We offer a [few issue templates](https://github.com/prequel-dev/cre/issues/new/choose) to help guide you:
+
+* **Bug report**: Create a report to help us improve
+* **Feature request**: Suggest an idea for this project
+* **New rule**: Suggestions and ideas for new CREs
+* **Tune existing rule**: Suggest changes to make to an existing CRE to address false positives or negatives
+
+If none of the templates fit your needs, feel free to open a blank issue and add relevant labels. The more details you provide—such as steps to reproduce, logs, or code snippets—the easier it is for us to help.
+
+#### "My issue isn't getting enough attention"
+
+We’re sorry if your issue seems overlooked! We try to respond promptly, but sometimes things get busy. If you feel your issue has been stuck for too long, feel free to:
+
+* Bump the issue with an additional comment.
+* Tag a maintainer or reach out to us on Slack (if available).
+
+We value your contributions and want to ensure your feedback is heard.
 
 ## Unique IDs
 
