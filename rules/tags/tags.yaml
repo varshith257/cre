@@ -111,6 +111,9 @@ tags:
   - name: prometheus
     displayName: Prometheus
     description: Problems with scraping, rule evaluation, or querying Prometheus data.
+  - name: connection-refused-startup
+    displayName: Connection Refused on Startup
+    description: Failures that occur when a service (e.g., Temporal worker) tries to connect to a backend and receives a connection refused error.
   - name: psycopg2
     displayName: Psycopg2
     description: Python client errors related to connecting or querying PostgreSQL using psycopg2.
@@ -468,6 +471,18 @@ tags:
   - name: xorg
     displayName: Xorg
     description: Problems related to Xorg, such as input lag, or performance issues
+  - name: slurm
+    displayName: SLURM
+    description: Problems related to SLURM workload manager
+  - name: slurmdbd
+    displayName: SlurmDBD
+    description: Problems related to SLURM Database Daemon
+  - name: mysql
+    displayName: MySQL
+    description: Problems related to MySQL database
+  - name: high-availability
+    displayName: High Availability
+    description: Problems related to high-availability systems and failover
   - name: write-failure
     displayName: Write Failure
     description: Problems where writes to a database or storage system fail due to insufficient space or other issues
@@ -495,12 +510,6 @@ tags:
   - name: securityContext
     displayName: securityContext
     description: Problems related to Kubernetes securityContext
-  - name: replication
-    displayName: Replication
-    description: Problems related to Kafka replication
-  - name: high-availability
-    displayName: High Availability
-    description: Problems related to high-availability
   - name: broker-failure
     displayName: Broker Failure
     description: Problems related to Kakfa broker failures
@@ -555,3 +564,18 @@ tags:
   - name: leader-election
     displayName: Leader Election
     description: Events and errors related to leader election processes in distributed systems
+  - name: workflow-orchestration-connectivity
+    displayName: Workflow Orchestration
+    description: Problems related to workfow orchestration
+  - name: temporal
+    displayName: Temporal
+    description: Problems related to Temporal
+  - name: worker
+    displayName: Worker Problems
+    description: Problems related to process workers
+  - name: grpc
+    displayName: gRPC
+    description: Problems related to gRPC
+  - name: startup-failure
+    displayName: Startup Failure
+    description: Problems related to start-up failures

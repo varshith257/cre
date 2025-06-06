@@ -126,6 +126,9 @@ categories:
   - name: ubuntu-desktop-problem
     displayName: Ubuntu Desktop Problems
     description: "Problems related to Ubuntu Desktop"
+  - name: hpc-database-problem
+    displayName: HPC Database Problems
+    description: Database issues specific to high-performance computing systems like SLURM
   - name: in-memory-database-problem
     displayName: In-Memory Database Problems
     description: Problems specific to in-memory data stores (e.g. Redis, Memcached)
@@ -141,3 +144,6 @@ categories:
   - name: redpanda-high-availability
     displayName: Redpanda High Availability
     description: High-severity issues related to quorum, leader election, Raft consensus, and node isolation in Redpanda clusters
+  - name: distributed-worker-connectivity
+    displayName: Distributed Worker Connectivity Issues
+    description: Failures where a distributed systems worker fails to reach or stay connected to the orchestration backend (e.g., Temporal, Celery).
