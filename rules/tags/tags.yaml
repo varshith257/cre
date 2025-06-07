@@ -576,3 +576,6 @@ tags:
   - name: schema-error
     displayName: Schema Error
     description: Missing or corrupted database schema elements such as tables or columns
+  - name: logs
+    displayName: Logs
+    description: Problems with log processing
