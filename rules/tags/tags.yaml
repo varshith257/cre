@@ -570,15 +570,9 @@ tags:
   - name: spicedb
     displayName: SpiceDB
     description: Issues related to SpiceDB authorization service
-
   - name: migration-failure
     displayName: Migration Failure
     description: Errors caused by failed or skipped database migrations
-
   - name: schema-error
     displayName: Schema Error
     description: Missing or corrupted database schema elements such as tables or columns
-
-  - name: postgres
-    displayName: PostgreSQL
-    description: Failures involving PostgreSQL as the backend datastore
