@@ -7,7 +7,7 @@ rules:
       generation: 1
       severity: 1
       title: "Redpanda Crash Due to Memory Exhaustion and Startup Failures"
-      category: "data-streaming"
+      category: data-streaming-platforms
       author: Prequel
       description: |
         Redpanda streaming platform crashes due to a combination of system-level failures including 
