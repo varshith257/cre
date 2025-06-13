@@ -4,7 +4,7 @@ rules:
       kind: prequel
       version: "0.1.0"
     cre:
-      id: CRE-2025-0100
+      id: CRE-2025-092
       severity: 1
       title: "Redpanda Quorum Loss"
       category: "redpanda-high-availability"
