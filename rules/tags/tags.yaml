@@ -581,7 +581,13 @@ tags:
     description: Problems related to loss of quorum in distributed systems, impacting consensus and availability
   - name: data-availability
     displayName: Data Availability
-    description: Problems related to data availability in distributed systems, such as loss of access to critical data
+    description: Problems related to data availability in distributed systems, such as loss of access to critical data        
+  - name: rpc
+    displayName: RPC
+    description: Remote Procedure Call errors or connectivity issues (includes timeouts, client-request failures, handler-not-found, etc.).
+  - name: raft
+    displayName: Raft
+    description: Issues related to the Raft consensus protocol—leader elections, step-downs, append-entries rejections, vote requests/replies, etc.
   - name: migration-failure
     displayName: Migration Failure
     description: Errors caused by failed or skipped database migrations
