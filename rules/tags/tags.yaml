@@ -609,18 +609,6 @@ tags:
   - name: relation-missing
     displayName: Relation Missing
     description: Database errors where expected tables or relations do not exist, typically due to corruption or migration failures 
-  - name: spicedb
-    displayName: SpiceDB
-    description: Problems related to SpiceDB authorization service, including schema corruption, permission failures, and database connectivity issues
-  - name: schema-error
-    displayName: Schema Error
-    description: Missing or corrupted database schema elements such as tables or columns
-  - name: fine-grained-access-control
-    displayName: Fine-Grained Access Control
-    description: Problems related to fine-grained authorization and permission systems that manage detailed access policies
-  - name: schema-corruption
-    displayName: Schema Corruption
-    description: Problems where database schemas become corrupted or missing, preventing normal operations
   - name: logs
     displayName: Logs
     description: Problems with log processing
@@ -657,5 +645,3 @@ tags:
   - name: sigkill
     displayName: SIGKILL
     description: Failures caused by processes being terminated with a SIGKILL signal.
-
-  
