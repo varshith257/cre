@@ -618,6 +618,19 @@ tags:
   - name: distributed-system
     displayName: Distributed System
     description: Problems specific to distributed systems, including coordination, consistency, and network partition issues
+
+
+  - name: datastore
+    displayName: Datastore
+    description: Problems with data storage systems, such as databases or object stores
+  - name: startup-failure
+    displayName: Startup Failure
+    description: Problems related to application or service startup failures, such as missing dependencies or configuration errors
+  - name: misconfiguration
+    displayName: Misconfiguration
+    description: Problems caused by incorrect or missing configuration settings, leading to application or service failures  
+
+
   - name: redpanda
     displayName: Redpanda
     description: Issues specifically related to the Redpanda streaming platform.
@@ -642,3 +655,4 @@ tags:
   - name: sigkill
     displayName: SIGKILL
     description: Failures caused by processes being terminated with a SIGKILL signal.
+
