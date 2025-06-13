@@ -6,7 +6,7 @@ rules:
     cre:
       id: CRE-2025-0100
       severity: 1
-      title: "Redpanda Quorum Loss and Leader Election"
+      title: "Redpanda Quorum Loss"
       category: "redpanda-high-availability"
       tags:
         - "redpanda"
@@ -56,10 +56,4 @@ rules:
         event:
           source: cre.log.redpanda
         match:
-          - regex: >
-              Error occurred while sending node status request: rpc::errc::exponential_backoff|
-              Received error when sending heartbeats to node \d+ - rpc::errc::exponential_backoff|
-              unable to get node health report from \d+ - rpc::errc::disconnected_endpoint\(node down\), marking node as down|
-              triggering leadership notification|
-              vote reply from .* vote_granted: [0-9]+|
-              becoming the leader term:[0-9]+|
+          - regex: "Error occurred while sending node status request: rpc::errc::exponential_backoff"
