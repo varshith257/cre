@@ -22,7 +22,6 @@ rules:
       tags:
         - spicedb
         - authorization
-        - schema
         - datastore
         - misconfiguration
         - startup-failure
