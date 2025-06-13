@@ -1,6 +1,6 @@
 rules:
   - cre:
-      id: CRE-2025-0080
+      id: CRE-2025-0091
       severity: 0
       title: Redpanda Consumer Mass Disconnect → Coordinator Failure
       category: distributed-messaging-connectivity
