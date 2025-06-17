@@ -1,10 +1,9 @@
 rules:
   - metadata:
-      id: ArpxWk5dVu2Vw6wHQXYNBY
+      id: zpK1afpJcKYJ9tfFoce1Gq
       kind: prequel
-      version: "0.1.0"
     cre:
-      id: CRE-2025-092
+      id: CRE-2025-0092
       severity: 1
       title: "Redpanda Quorum Loss"
       category: "redpanda-high-availability"
