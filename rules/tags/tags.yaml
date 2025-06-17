@@ -132,12 +132,6 @@ tags:
   - name: message-processing-halt
     displayName: Message Processing Halt
     description: Complete stoppage of message processing in streaming systems
-  - name: temporal
-    displayName: Temporal
-    description: Issues related to Temporal workflow orchestration  
-  - name: worker
-    displayName: Worker
-    description: Distributed system worker process failures
   - name: psycopg2
     displayName: Psycopg2
     description: Python client errors related to connecting or querying PostgreSQL using psycopg2.
@@ -576,6 +570,15 @@ tags:
   - name: demo-problem
     displayName: Demo Problem
     description: This is a tag for demo problems
+  - name: workflow-orchestration
+    displayName: Workflow Orchestration
+    description: Problems related to workfow orchestration
+  - name: temporal
+    displayName: Temporal
+    description: Problems related to Temporal
+  - name: worker
+    displayName: Worker Problems
+    description: Problems related to process workers
   - name: raft
     displayName: Raft
     description: Issues related to Raft consensus protocol, elections, and leader changes
