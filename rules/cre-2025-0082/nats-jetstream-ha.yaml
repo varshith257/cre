@@ -56,7 +56,7 @@ rules:
         event:
           source: cre.log.nats
         match:
-          - regex: "monitor goroutine not running|context deadline exceeded|UNSYNCED"
+          - regex: "monitor goroutine not running|Fetch error: context deadline exceeded|UNSYNCED"
         negate:
           - "server shutdown"
           - "shutting down"
