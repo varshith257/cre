@@ -7,7 +7,7 @@ rules:
       id: CRE-2025-0095
       severity: 1
       title: "NATS Connection Exhaustion: Maximum Connections Exceeded"
-      category: "message-queue-problems"
+      category: "message-queue-problem"
       author: Community
       description: |
         Detects NATS server connection exhaustion where the configured maximum
@@ -28,8 +28,6 @@ rules:
       tags:
         - nats
         - connection-exhaustion
-        - message-queue
-        - distributed-systems
         - critical-infrastructure
       mitigation: |
         IMMEDIATE ACTIONS (CRITICAL):
