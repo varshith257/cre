@@ -4,10 +4,10 @@ rules:
       id: bK4nZmLxPdTQ8vHjsYUxVb
       hash: QrT5yGdKWeXrTbnYpLsHcN
     cre:
-      id: CRE-2025-0102
+      id: CRE-2025-0106
       severity: 1
       title: "Ambient CNI Sandbox Creation Failure"
-      category: "cni-setup-failure"
+      category: "istio-ambient-troubleshooting"
       author: Prequel
       description: |
         Detects when the Istio CNI plugin fails to set up a pod's network sandbox
