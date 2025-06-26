@@ -33,7 +33,6 @@ rules:
         - istio
         - ambient
         - ztunnel
-        - xds
       references:
         - https://istio.io/latest/docs/ops/troubleshooting/ambient/#scenario-traffic-fails-with-timed-out-waiting-for-workload-from-xds
       applications:
