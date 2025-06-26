@@ -42,8 +42,8 @@ rules:
       tags:
         - istio
         - ambient
-        - ipv6
-        - dnsproxy
+        - ztunnel
+        - network
       references:
         - https://github.com/istio/istio/wiki/Troubleshooting-Istio-Ambient#scenario-ztunnel-fails-with-failed-to-bind-to-address-115053-address-family-not-supported
     rule:
