@@ -1,0 +1,6 @@
+2025-06-21T16:42:03Z   Created                  Created container istio-proxy
+2025-06-21T16:42:03Z   Started                  Started container istio-proxy
+2025-06-21T16:43:10Z   Unhealthy                Readiness probe failed: Get "http://10.244.0.15:15021/healthz/ready": dial tcp 10.244.0.15:15021: connect: connection refused
+2025-06-21T16:43:26Z   Scheduled                Successfully assigned default/sandbox-fail to istio-demo-control-plane
+2025-06-21T16:42:46Z   Killing                  Stopping container istio-proxy
+2025-06-21T16:42:46Z   Killing                  Stopping container sandbox-fail
