@@ -51,5 +51,5 @@ rules:
         event:
           source: istio.ambient.logs
         match:
-          - regex: 'failed to bind to address \\[::1\\]:15053: Address family not supported(?: \\(os error \\d+\\))?'
+          - regex: 'failed to bind to address \[::1\]:15053: Address family not supported(?: \(os error \d+\))?'
         negate: []
