@@ -4,9 +4,9 @@ rules:
       id: bR7xUvNyLdGQ2pTjWzYkEp
       hash: VaM3qSdLFeXpRnmYpKoJc
     cre:
-      id: CRE-2025-0107
+      id: CRE-2025-0104
       severity: 2
-      title: "Ambient mode XDS workload lookup timeout"
+      title: "Istio Ambient traffic fails with timed out waiting for workload from xds"
       category: "istio-ambient-troubleshooting"
       author: Prequel
       description: |
@@ -32,7 +32,8 @@ rules:
       tags:
         - istio
         - ambient
-        - cni
+        - ztunnel
+        - xds
       references:
         - https://istio.io/latest/docs/ops/troubleshooting/ambient/#scenario-traffic-fails-with-timed-out-waiting-for-workload-from-xds
       applications:
