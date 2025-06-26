@@ -1,0 +1,2 @@
+2025-06-25T18:33:46Z	error   access  connection complete      direction="outbound" bytes_sent=0 bytes_recv=0 duration="10002ms" error="io error: deadline has elapsed"
+2025-06-25T18:33:16Z	error   access  connection complete      direction="outbound" bytes_sent=0 bytes_recv=0 duration="10002ms" error="connection timed out, maybe a NetworkPolicy is blocking HBONE port 15008: deadline has elapsed"
