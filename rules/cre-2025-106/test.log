@@ -1,7 +1,6 @@
 2025-06-21T16:42:03Z   Started                  Started container istio-proxy
 2025-06-21T16:42:46Z   Killing                  Stopping container istio-proxy
 2025-06-21T16:42:46Z   Killing                  Stopping container sandbox-fail
-2025-06-21T16:43:10Z   Unhealthy                Readiness probe failed: Get "http://10.244.0.15:15021/healthz/ready": dial tcp 10.244.0.15:15021: connect: connection refused
 2025-06-21T16:43:26Z   Scheduled                Successfully assigned default/sandbox-fail to istio-demo-control-plane
 2025-06-21T16:43:26Z   FailedCreatePodSandBox   Failed to create pod sandbox: rpc error: code = Unknown desc = failed to setup network for sandbox "80a85c307b25f18b974eb09330ea2ff6314efe11f61e68dd8fea371b73733548": plugin type="istio-cni" name="istio-cni" failed (add): istio-cni cmdAdd failed to contact node Istio CNI agent: unable to push CNI event (status code 500): no ztunnel connection
 2025-06-21T16:43:27Z   FailedCreatePodSandBox   Failed to create pod sandbox: rpc error: code = Unknown desc = failed to setup network for sandbox "13853d2b00499e8aa51d26ebbaa7f2e3e59fccc304c14e0a1032845c34aee110": plugin type="istio-cni" name="istio-cni" failed (add): istio-cni cmdAdd failed to contact node Istio CNI agent: unable to push CNI event (status code 500): no ztunnel connection

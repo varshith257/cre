@@ -47,8 +47,7 @@ rules:
       set:
         window: 60s
         event:
-          source: kubectl.describer.pod
+          source: cre.log.ambient
         match:
           - regex: "FailedCreatePodSandBox"
           - regex: "no ztunnel connection"
-        negate: []
