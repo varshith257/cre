@@ -35,14 +35,14 @@ rules:
         - ambient
         - ztunnel
       references:
-        - https://istio.io/latest/docs/ops/troubleshooting/ambient/#scenario-traffic-fails-with-http-status
+        - https://github.com/istio/istio/wiki/Troubleshooting-Istio-Ambient#scenario-traffic-fails-with-http-status-
       applications:
         - name: ztunnel
           version: ">=1.26.0"
     rule:
       set:
         event:
-          source: kubectl.runner.sh
+          source: cre.log.ambient
         match:
           - regex: "status=(?:4[0-9]{2}|5[0-9]{2})"
         negate: []
