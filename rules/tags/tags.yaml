@@ -687,9 +687,6 @@ tags:
   - name: istio
     displayName: Istio
     description: Problems related to the Istio service mesh
-  - name: cni
-    displayName: CNI
-    description: Problems related to the Container Network Interface plugin
   - name: ambient
     displayName: Ambient
     description: Problems specific to Ambient-mode service-mesh failures
