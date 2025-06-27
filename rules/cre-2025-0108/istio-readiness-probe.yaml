@@ -42,13 +42,10 @@ rules:
           version: ">=1.26.0"
     rule:
       sequence:
-        window: 300s
+        window: 180s
         event:
           source: cre.log.ambient
         order:
           - regex: "Readiness probe failed:"
             count: 4
-          # - regex: "Back-off restarting failed container"
-        negate:
-          - regex: "Liveness probe failed"
-          - regex: "HTTP probe failed with statuscode:"
+          - regex: "Back-off restarting failed container"
