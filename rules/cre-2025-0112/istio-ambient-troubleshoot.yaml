@@ -49,7 +49,6 @@ rules:
     rule:
       set:
         event:
-          source: istio.ambient.logs
+          source: cre.log.ambient
         match:
           - regex: 'failed to bind to address \[::1\]:15053: Address family not supported(?: \(os error \d+\))?'
-        negate: []
