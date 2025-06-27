@@ -34,14 +34,14 @@ rules:
         - ambient
         - ztunnel
       references:
-        - https://istio.io/latest/docs/ops/troubleshooting/ambient/#scenario-traffic-fails-with-timed-out-waiting-for-workload-from-xds
+        - https://github.com/istio/istio/wiki/Troubleshooting-Istio-Ambient#scenario-traffic-fails-with-timed-out-waiting-for-workload-from-xds
       applications:
         - name: istio-ambient
           version: ">=1.26.0"
     rule:
       set:
         event:
-          source: istio.ambient.logs
+          source: cre.log.ambient
         match:
           - regex: "timed out waiting for workload .* from xds"
         negate:
