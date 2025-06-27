@@ -48,3 +48,6 @@ rules:
         order:
           - regex: "Readiness probe failed:"
             count: 4
+        negate:
+          - regex: "Liveness probe failed"
+          - regex: "HTTP probe failed with statuscode:"
