@@ -47,8 +47,7 @@ rules:
           source: cre.log.ambient
         order:
           - regex: "Readiness probe failed:"
-            count: 1
-          - regex: "Back-off restarting failed container"
+            count: 4
         negate:
           - regex: "Liveness probe failed"
           - regex: "HTTP probe failed with statuscode:"
