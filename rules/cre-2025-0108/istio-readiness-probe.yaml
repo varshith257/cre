@@ -44,7 +44,7 @@ rules:
       sequence:
         window: 300s
         event:
-          source: cre.log.istio.ambient
+          source: cre.log.ambient
         order:
           - regex: "Readiness probe failed:"
             count: 4
