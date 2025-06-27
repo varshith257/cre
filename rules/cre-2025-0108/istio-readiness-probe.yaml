@@ -36,16 +36,19 @@ rules:
         - ambient
         - cni
       references:
-        - https://istio.io/latest/docs/ops/troubleshooting/ambient/#scenario-readiness-probes-fail-with-ztunnel
+        - https://github.com/istio/istio/wiki/Troubleshooting-Istio-Ambient#scenario-readiness-probes-fail-with-ztunnel
       applications:
         - name: istio-ambient
           version: ">=1.26.0"
     rule:
-      set:
+      sequence:
+        window: 300s
         event:
-          source: kubectl.describer.pod
-        match:
+          source: cre.log.istio.ambient
+        order:
           - regex: "Readiness probe failed:"
+            count: 4
+          - regex: "Back-off restarting failed container"
         negate:
           - regex: "Liveness probe failed"
           - regex: "HTTP probe failed with statuscode:"
