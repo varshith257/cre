@@ -702,6 +702,9 @@ tags:
   - name: critical-infrastructure
     displayName: Critical Infrastructure
     description: Issues affecting mission-critical infrastructure components that require immediate attention to prevent widespread outages
+  - name: ambient
+    displayName: Ambient
+    description: Problems specific to Ambient-mode service-mesh failures
   - name: storage-exhaustion
     displayName: Storage Exhaustion
     description: Problems where storage limits are exceeded causing service failures or data rejection
