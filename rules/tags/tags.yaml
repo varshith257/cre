@@ -708,3 +708,15 @@ tags:
   - name: ztunnel
     displayName: Ztunnel
     description: Issues specific to Istio's Ztunnel node proxy in Ambient mode—covering DNS-proxy binding errors, HBONE traffic capture failures, socket binding problems and other per-node proxy concerns
+  - name: storage-exhaustion
+    displayName: Storage Exhaustion
+    description: Problems where storage limits are exceeded causing service failures or data rejection
+  - name: message-storage-failure
+    displayName: Message Storage Failure
+    description: Failures to persist messages due to storage constraints or system limitations
+  - name: capacity-exceeded
+    displayName: Capacity Exceeded
+    description: Problems where system capacity limits (storage, memory, connections) are exceeded
+  - name: data-loss-risk
+    displayName: Data Loss Risk
+    description: Conditions that may lead to data loss if not addressed promptly
