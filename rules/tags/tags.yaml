@@ -705,3 +705,15 @@ tags:
   - name: ambient
     displayName: Ambient
     description: Problems specific to Ambient-mode service-mesh failures
+  - name: storage-exhaustion
+    displayName: Storage Exhaustion
+    description: Problems where storage limits are exceeded causing service failures or data rejection
+  - name: message-storage-failure
+    displayName: Message Storage Failure
+    description: Failures to persist messages due to storage constraints or system limitations
+  - name: capacity-exceeded
+    displayName: Capacity Exceeded
+    description: Problems where system capacity limits (storage, memory, connections) are exceeded
+  - name: data-loss-risk
+    displayName: Data Loss Risk
+    description: Conditions that may lead to data loss if not addressed promptly
