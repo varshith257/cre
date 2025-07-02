@@ -633,6 +633,15 @@ tags:
   - name: logs
     displayName: Logs
     description: Problems with log processing
+  - name: redpanda-startup
+    displayName: Redpanda Startup
+    description: Problems related to Redpanda startup, such as configuration issues or missing state
+  - name: redpanda-state-missing
+    displayName: Redpanda State Missing
+    description: Problems related to missing state in Redpanda, such as missing offsets or partitions
+  - name: snapshot
+    displayName: Snapshot
+    description: Problems related to snapshotting in Redpanda, such as missing or incomplete snapshots    
   - name: distributed-system
     displayName: Distributed System
     description: Problems specific to distributed systems, including coordination, consistency, and network partition issues
@@ -663,6 +672,15 @@ tags:
   - name: sigkill
     displayName: SIGKILL
     description: Failures caused by processes being terminated with a SIGKILL signal.
+  - name: jetstream
+    displayName: JetStream
+    description: NATS JetStream persistence & streaming subsystem issues.
+  - name: ack-deadlock
+    displayName: Ack Deadlock
+    description: Deadlocks caused by unacknowledged messages or backpressure in JetStream acks.
+  - name: unsynced-replica
+    displayName: Unsynced Replica
+    description: JetStream replicas that fail to synchronize state with the leader after restart or failover.
   - name: connection-exhaustion
     displayName: Connection Exhaustion
     description: Problems where systems reach their maximum connection limits, preventing new connections and causing service degradation
@@ -687,3 +705,18 @@ tags:
   - name: ambient
     displayName: Ambient
     description: Problems specific to Ambient-mode service-mesh failures
+  - name: ztunnel
+    displayName: Ztunnel
+    description: Issues specific to Istio's Ztunnel node proxy in Ambient mode—covering DNS-proxy binding errors, HBONE traffic capture failures, socket binding problems and other per-node proxy concerns
+  - name: storage-exhaustion
+    displayName: Storage Exhaustion
+    description: Problems where storage limits are exceeded causing service failures or data rejection
+  - name: message-storage-failure
+    displayName: Message Storage Failure
+    description: Failures to persist messages due to storage constraints or system limitations
+  - name: capacity-exceeded
+    displayName: Capacity Exceeded
+    description: Problems where system capacity limits (storage, memory, connections) are exceeded
+  - name: data-loss-risk
+    displayName: Data Loss Risk
+    description: Conditions that may lead to data loss if not addressed promptly
